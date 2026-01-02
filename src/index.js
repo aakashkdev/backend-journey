@@ -1,4 +1,43 @@
-import mongoose from "mongoose";
+import dotenv from "dotenv";
+import connectDB from "../db";
+
+
+dotenv.config({
+    path : "./env"
+})
+
+connectDB();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*import mongoose from "mongoose";
 import { DB_Name } from "./constants";
 import express from "express";
 
@@ -16,4 +55,4 @@ const app = express();
     } catch (error) {
         console.error("Error connecting to MongoDB:", error);
     }
-}) ()
+}) ()*/
